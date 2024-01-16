@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qeCX9uZx9vdnARahnSHqxI9NTMnNb6O/R0ah0HYfi9rFqcuuruZTzB0v2o1ZPRSO8E6n8Ft3oRvouIAQGBW7/g==",
+  "dgSpecHash": "UlC6lm9Bbs1+ZhnnbEe1a3bMxbClLQans1PWT/EEaJvLat/lOnKAK3CKnM0knW9IbYPKg+D5jLz6IUZqxQueBA==",
   "success": true,
   "projectFilePath": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\Tomo_\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Tomo_\\.nuget\\packages\\microsoft.jsinterop\\8.0.1\\microsoft.jsinterop.8.0.1.nupkg.sha512",
     "C:\\Users\\Tomo_\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.1\\microsoft.jsinterop.webassembly.8.0.1.nupkg.sha512",
+    "C:\\Users\\Tomo_\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\Tomo_\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Tomo_\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Tomo_\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
