@@ -1,2 +1,2 @@
 # Sports-League-Team-Rankings-Web
-Personal Project
+Web application Built with .NET. Measures the performance of teams in a sports league using a set criteria.
