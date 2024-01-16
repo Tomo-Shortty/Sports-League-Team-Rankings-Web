@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SportsLeagueTeamRankings.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SportsLeagueTeamRankings.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SportsLeagueTeamRankings.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SportsLeagueTeamRankings.props",
+      "PackagePath": "build\\SportsLeagueTeamRankings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SportsLeagueTeamRankings.props",
+      "PackagePath": "buildMultiTargeting\\SportsLeagueTeamRankings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SportsLeagueTeamRankings.props",
+      "PackagePath": "buildTransitive\\SportsLeagueTeamRankings.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings.Client\\obj\\Debug\\net8.0\\compressed\\kigl3tgpek.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Development\\Sports-League-Team-Rankings-Web\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings\\SportsLeagueTeamRankings.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SportsLeagueTeamRankings.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SportsLeagueTeamRankings.Client.props",
+      "PackagePath": "build\\SportsLeagueTeamRankings.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SportsLeagueTeamRankings.Client.props",
+      "PackagePath": "buildMultiTargeting\\SportsLeagueTeamRankings.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SportsLeagueTeamRankings.Client.props",
+      "PackagePath": "buildTransitive\\SportsLeagueTeamRankings.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
