@@ -1,6 +1,7 @@
 {
   "ContentRoots": [
     "/app/wwwroot/",
+    "/.nuget/fallbackpackages/microsoft.aspnetcore.components.quickgrid/8.0.0/staticwebassets/",
     "/src/SportsLeagueTeamRankings/SportsLeagueTeamRankings.Client/bin/Debug/net8.0/wwwroot/",
     "/src/SportsLeagueTeamRankings/SportsLeagueTeamRankings.Client/wwwroot/",
     "/app/obj/Debug/net8.0/scopedcss/bundle/"
@@ -45,12 +46,40 @@
         },
         "Patterns": null
       },
+      "_content": {
+        "Children": {
+          "Microsoft.AspNetCore.Components.QuickGrid": {
+            "Children": {
+              "QuickGrid.razor.js": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 1,
+                  "SubPath": "QuickGrid.razor.js"
+                },
+                "Patterns": null
+              },
+              "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css": {
+                "Children": null,
+                "Asset": {
+                  "ContentRootIndex": 1,
+                  "SubPath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+                },
+                "Patterns": null
+              }
+            },
+            "Asset": null,
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      },
       "_framework": {
         "Children": {
           "blazor.boot.json": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/blazor.boot.json"
             },
             "Patterns": null
@@ -58,7 +87,7 @@
           "blazor.webassembly.js": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/blazor.webassembly.js"
             },
             "Patterns": null
@@ -66,7 +95,7 @@
           "dotnet.js": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.js"
             },
             "Patterns": null
@@ -74,7 +103,7 @@
           "dotnet.js.map": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.js.map"
             },
             "Patterns": null
@@ -82,7 +111,7 @@
           "dotnet.native.8.0.1.25aww0kmau.js": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.native.8.0.1.25aww0kmau.js"
             },
             "Patterns": null
@@ -90,7 +119,7 @@
           "dotnet.native.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.native.wasm"
             },
             "Patterns": null
@@ -98,7 +127,7 @@
           "dotnet.runtime.8.0.1.0c9h2tcohx.js": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.runtime.8.0.1.0c9h2tcohx.js"
             },
             "Patterns": null
@@ -106,7 +135,7 @@
           "dotnet.runtime.js.map": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.runtime.js.map"
             },
             "Patterns": null
@@ -114,7 +143,7 @@
           "icudt_CJK.dat": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/icudt_CJK.dat"
             },
             "Patterns": null
@@ -122,7 +151,7 @@
           "icudt_EFIGS.dat": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/icudt_EFIGS.dat"
             },
             "Patterns": null
@@ -130,7 +159,7 @@
           "icudt_no_CJK.dat": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/icudt_no_CJK.dat"
             },
             "Patterns": null
@@ -138,7 +167,7 @@
           "Microsoft.AspNetCore.Authorization.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Authorization.wasm"
             },
             "Patterns": null
@@ -146,7 +175,7 @@
           "Microsoft.AspNetCore.Components.Forms.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.Forms.wasm"
             },
             "Patterns": null
@@ -154,7 +183,7 @@
           "Microsoft.AspNetCore.Components.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.wasm"
             },
             "Patterns": null
@@ -162,7 +191,7 @@
           "Microsoft.AspNetCore.Components.Web.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.Web.wasm"
             },
             "Patterns": null
@@ -170,7 +199,7 @@
           "Microsoft.AspNetCore.Components.WebAssembly.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.wasm"
             },
             "Patterns": null
@@ -178,7 +207,7 @@
           "Microsoft.AspNetCore.Metadata.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Metadata.wasm"
             },
             "Patterns": null
@@ -186,7 +215,7 @@
           "Microsoft.CSharp.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.CSharp.wasm"
             },
             "Patterns": null
@@ -194,7 +223,7 @@
           "Microsoft.Extensions.Configuration.Abstractions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.Abstractions.wasm"
             },
             "Patterns": null
@@ -202,7 +231,7 @@
           "Microsoft.Extensions.Configuration.Binder.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.Binder.wasm"
             },
             "Patterns": null
@@ -210,7 +239,7 @@
           "Microsoft.Extensions.Configuration.FileExtensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.FileExtensions.wasm"
             },
             "Patterns": null
@@ -218,7 +247,7 @@
           "Microsoft.Extensions.Configuration.Json.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.Json.wasm"
             },
             "Patterns": null
@@ -226,7 +255,7 @@
           "Microsoft.Extensions.Configuration.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.wasm"
             },
             "Patterns": null
@@ -234,7 +263,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
             },
             "Patterns": null
@@ -242,7 +271,7 @@
           "Microsoft.Extensions.DependencyInjection.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.DependencyInjection.wasm"
             },
             "Patterns": null
@@ -250,7 +279,7 @@
           "Microsoft.Extensions.FileProviders.Abstractions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.FileProviders.Abstractions.wasm"
             },
             "Patterns": null
@@ -258,7 +287,7 @@
           "Microsoft.Extensions.FileProviders.Physical.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.FileProviders.Physical.wasm"
             },
             "Patterns": null
@@ -266,7 +295,7 @@
           "Microsoft.Extensions.FileSystemGlobbing.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.FileSystemGlobbing.wasm"
             },
             "Patterns": null
@@ -274,7 +303,7 @@
           "Microsoft.Extensions.Logging.Abstractions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Logging.Abstractions.wasm"
             },
             "Patterns": null
@@ -282,7 +311,7 @@
           "Microsoft.Extensions.Logging.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Logging.wasm"
             },
             "Patterns": null
@@ -290,7 +319,7 @@
           "Microsoft.Extensions.Options.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Options.wasm"
             },
             "Patterns": null
@@ -298,7 +327,7 @@
           "Microsoft.Extensions.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Primitives.wasm"
             },
             "Patterns": null
@@ -306,7 +335,7 @@
           "Microsoft.JSInterop.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.JSInterop.wasm"
             },
             "Patterns": null
@@ -314,7 +343,7 @@
           "Microsoft.JSInterop.WebAssembly.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.JSInterop.WebAssembly.wasm"
             },
             "Patterns": null
@@ -322,7 +351,7 @@
           "Microsoft.VisualBasic.Core.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.VisualBasic.Core.wasm"
             },
             "Patterns": null
@@ -330,7 +359,7 @@
           "Microsoft.VisualBasic.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.VisualBasic.wasm"
             },
             "Patterns": null
@@ -338,7 +367,7 @@
           "Microsoft.Win32.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Win32.Primitives.wasm"
             },
             "Patterns": null
@@ -346,7 +375,7 @@
           "Microsoft.Win32.Registry.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Win32.Registry.wasm"
             },
             "Patterns": null
@@ -354,7 +383,7 @@
           "mscorlib.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/mscorlib.wasm"
             },
             "Patterns": null
@@ -362,7 +391,7 @@
           "netstandard.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/netstandard.wasm"
             },
             "Patterns": null
@@ -370,7 +399,7 @@
           "SportsLeagueTeamRankings.Client.pdb": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/SportsLeagueTeamRankings.Client.pdb"
             },
             "Patterns": null
@@ -378,7 +407,7 @@
           "SportsLeagueTeamRankings.Client.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/SportsLeagueTeamRankings.Client.wasm"
             },
             "Patterns": null
@@ -386,7 +415,7 @@
           "System.AppContext.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.AppContext.wasm"
             },
             "Patterns": null
@@ -394,7 +423,7 @@
           "System.Buffers.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Buffers.wasm"
             },
             "Patterns": null
@@ -402,7 +431,7 @@
           "System.Collections.Concurrent.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.Concurrent.wasm"
             },
             "Patterns": null
@@ -410,7 +439,7 @@
           "System.Collections.Immutable.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.Immutable.wasm"
             },
             "Patterns": null
@@ -418,7 +447,7 @@
           "System.Collections.NonGeneric.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.NonGeneric.wasm"
             },
             "Patterns": null
@@ -426,7 +455,7 @@
           "System.Collections.Specialized.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.Specialized.wasm"
             },
             "Patterns": null
@@ -434,7 +463,7 @@
           "System.Collections.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.wasm"
             },
             "Patterns": null
@@ -442,7 +471,7 @@
           "System.ComponentModel.Annotations.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.Annotations.wasm"
             },
             "Patterns": null
@@ -450,7 +479,7 @@
           "System.ComponentModel.DataAnnotations.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.DataAnnotations.wasm"
             },
             "Patterns": null
@@ -458,7 +487,7 @@
           "System.ComponentModel.EventBasedAsync.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.EventBasedAsync.wasm"
             },
             "Patterns": null
@@ -466,7 +495,7 @@
           "System.ComponentModel.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.Primitives.wasm"
             },
             "Patterns": null
@@ -474,7 +503,7 @@
           "System.ComponentModel.TypeConverter.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.TypeConverter.wasm"
             },
             "Patterns": null
@@ -482,7 +511,7 @@
           "System.ComponentModel.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.wasm"
             },
             "Patterns": null
@@ -490,7 +519,7 @@
           "System.Configuration.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Configuration.wasm"
             },
             "Patterns": null
@@ -498,7 +527,7 @@
           "System.Console.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Console.wasm"
             },
             "Patterns": null
@@ -506,7 +535,7 @@
           "System.Core.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Core.wasm"
             },
             "Patterns": null
@@ -514,7 +543,7 @@
           "System.Data.Common.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Data.Common.wasm"
             },
             "Patterns": null
@@ -522,7 +551,7 @@
           "System.Data.DataSetExtensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Data.DataSetExtensions.wasm"
             },
             "Patterns": null
@@ -530,7 +559,7 @@
           "System.Data.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Data.wasm"
             },
             "Patterns": null
@@ -538,7 +567,7 @@
           "System.Diagnostics.Contracts.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Contracts.wasm"
             },
             "Patterns": null
@@ -546,7 +575,7 @@
           "System.Diagnostics.Debug.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Debug.wasm"
             },
             "Patterns": null
@@ -554,7 +583,7 @@
           "System.Diagnostics.DiagnosticSource.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.DiagnosticSource.wasm"
             },
             "Patterns": null
@@ -562,7 +591,7 @@
           "System.Diagnostics.FileVersionInfo.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.FileVersionInfo.wasm"
             },
             "Patterns": null
@@ -570,7 +599,7 @@
           "System.Diagnostics.Process.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Process.wasm"
             },
             "Patterns": null
@@ -578,7 +607,7 @@
           "System.Diagnostics.StackTrace.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.StackTrace.wasm"
             },
             "Patterns": null
@@ -586,7 +615,7 @@
           "System.Diagnostics.TextWriterTraceListener.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.TextWriterTraceListener.wasm"
             },
             "Patterns": null
@@ -594,7 +623,7 @@
           "System.Diagnostics.Tools.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Tools.wasm"
             },
             "Patterns": null
@@ -602,7 +631,7 @@
           "System.Diagnostics.TraceSource.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.TraceSource.wasm"
             },
             "Patterns": null
@@ -610,7 +639,7 @@
           "System.Diagnostics.Tracing.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Tracing.wasm"
             },
             "Patterns": null
@@ -618,7 +647,7 @@
           "System.Drawing.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Drawing.Primitives.wasm"
             },
             "Patterns": null
@@ -626,7 +655,7 @@
           "System.Drawing.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Drawing.wasm"
             },
             "Patterns": null
@@ -634,7 +663,7 @@
           "System.Dynamic.Runtime.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Dynamic.Runtime.wasm"
             },
             "Patterns": null
@@ -642,7 +671,7 @@
           "System.Formats.Asn1.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Formats.Asn1.wasm"
             },
             "Patterns": null
@@ -650,7 +679,7 @@
           "System.Formats.Tar.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Formats.Tar.wasm"
             },
             "Patterns": null
@@ -658,7 +687,7 @@
           "System.Globalization.Calendars.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Globalization.Calendars.wasm"
             },
             "Patterns": null
@@ -666,7 +695,7 @@
           "System.Globalization.Extensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Globalization.Extensions.wasm"
             },
             "Patterns": null
@@ -674,7 +703,7 @@
           "System.Globalization.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Globalization.wasm"
             },
             "Patterns": null
@@ -682,7 +711,7 @@
           "System.IO.Compression.Brotli.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.Brotli.wasm"
             },
             "Patterns": null
@@ -690,7 +719,7 @@
           "System.IO.Compression.FileSystem.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.FileSystem.wasm"
             },
             "Patterns": null
@@ -698,7 +727,7 @@
           "System.IO.Compression.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.wasm"
             },
             "Patterns": null
@@ -706,7 +735,7 @@
           "System.IO.Compression.ZipFile.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.ZipFile.wasm"
             },
             "Patterns": null
@@ -714,7 +743,7 @@
           "System.IO.FileSystem.AccessControl.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.AccessControl.wasm"
             },
             "Patterns": null
@@ -722,7 +751,7 @@
           "System.IO.FileSystem.DriveInfo.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.DriveInfo.wasm"
             },
             "Patterns": null
@@ -730,7 +759,7 @@
           "System.IO.FileSystem.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.Primitives.wasm"
             },
             "Patterns": null
@@ -738,7 +767,7 @@
           "System.IO.FileSystem.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.wasm"
             },
             "Patterns": null
@@ -746,7 +775,7 @@
           "System.IO.FileSystem.Watcher.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.Watcher.wasm"
             },
             "Patterns": null
@@ -754,7 +783,7 @@
           "System.IO.IsolatedStorage.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.IsolatedStorage.wasm"
             },
             "Patterns": null
@@ -762,7 +791,7 @@
           "System.IO.MemoryMappedFiles.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.MemoryMappedFiles.wasm"
             },
             "Patterns": null
@@ -770,7 +799,7 @@
           "System.IO.Pipelines.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Pipelines.wasm"
             },
             "Patterns": null
@@ -778,7 +807,7 @@
           "System.IO.Pipes.AccessControl.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Pipes.AccessControl.wasm"
             },
             "Patterns": null
@@ -786,7 +815,7 @@
           "System.IO.Pipes.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Pipes.wasm"
             },
             "Patterns": null
@@ -794,7 +823,7 @@
           "System.IO.UnmanagedMemoryStream.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.UnmanagedMemoryStream.wasm"
             },
             "Patterns": null
@@ -802,7 +831,7 @@
           "System.IO.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.wasm"
             },
             "Patterns": null
@@ -810,7 +839,7 @@
           "System.Linq.Expressions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.Expressions.wasm"
             },
             "Patterns": null
@@ -818,7 +847,7 @@
           "System.Linq.Parallel.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.Parallel.wasm"
             },
             "Patterns": null
@@ -826,7 +855,7 @@
           "System.Linq.Queryable.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.Queryable.wasm"
             },
             "Patterns": null
@@ -834,7 +863,7 @@
           "System.Linq.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.wasm"
             },
             "Patterns": null
@@ -842,7 +871,7 @@
           "System.Memory.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Memory.wasm"
             },
             "Patterns": null
@@ -850,7 +879,7 @@
           "System.Net.Http.Json.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Http.Json.wasm"
             },
             "Patterns": null
@@ -858,7 +887,7 @@
           "System.Net.Http.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Http.wasm"
             },
             "Patterns": null
@@ -866,7 +895,7 @@
           "System.Net.HttpListener.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.HttpListener.wasm"
             },
             "Patterns": null
@@ -874,7 +903,7 @@
           "System.Net.Mail.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Mail.wasm"
             },
             "Patterns": null
@@ -882,7 +911,7 @@
           "System.Net.NameResolution.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.NameResolution.wasm"
             },
             "Patterns": null
@@ -890,7 +919,7 @@
           "System.Net.NetworkInformation.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.NetworkInformation.wasm"
             },
             "Patterns": null
@@ -898,7 +927,7 @@
           "System.Net.Ping.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Ping.wasm"
             },
             "Patterns": null
@@ -906,7 +935,7 @@
           "System.Net.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Primitives.wasm"
             },
             "Patterns": null
@@ -914,7 +943,7 @@
           "System.Net.Quic.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Quic.wasm"
             },
             "Patterns": null
@@ -922,7 +951,7 @@
           "System.Net.Requests.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Requests.wasm"
             },
             "Patterns": null
@@ -930,7 +959,7 @@
           "System.Net.Security.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Security.wasm"
             },
             "Patterns": null
@@ -938,7 +967,7 @@
           "System.Net.ServicePoint.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.ServicePoint.wasm"
             },
             "Patterns": null
@@ -946,7 +975,7 @@
           "System.Net.Sockets.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Sockets.wasm"
             },
             "Patterns": null
@@ -954,7 +983,7 @@
           "System.Net.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.wasm"
             },
             "Patterns": null
@@ -962,7 +991,7 @@
           "System.Net.WebClient.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebClient.wasm"
             },
             "Patterns": null
@@ -970,7 +999,7 @@
           "System.Net.WebHeaderCollection.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebHeaderCollection.wasm"
             },
             "Patterns": null
@@ -978,7 +1007,7 @@
           "System.Net.WebProxy.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebProxy.wasm"
             },
             "Patterns": null
@@ -986,7 +1015,7 @@
           "System.Net.WebSockets.Client.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebSockets.Client.wasm"
             },
             "Patterns": null
@@ -994,7 +1023,7 @@
           "System.Net.WebSockets.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebSockets.wasm"
             },
             "Patterns": null
@@ -1002,7 +1031,7 @@
           "System.Numerics.Vectors.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Numerics.Vectors.wasm"
             },
             "Patterns": null
@@ -1010,7 +1039,7 @@
           "System.Numerics.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Numerics.wasm"
             },
             "Patterns": null
@@ -1018,7 +1047,7 @@
           "System.ObjectModel.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ObjectModel.wasm"
             },
             "Patterns": null
@@ -1026,7 +1055,7 @@
           "System.Private.CoreLib.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.CoreLib.wasm"
             },
             "Patterns": null
@@ -1034,7 +1063,7 @@
           "System.Private.DataContractSerialization.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.DataContractSerialization.wasm"
             },
             "Patterns": null
@@ -1042,7 +1071,7 @@
           "System.Private.Uri.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.Uri.wasm"
             },
             "Patterns": null
@@ -1050,7 +1079,7 @@
           "System.Private.Xml.Linq.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.Xml.Linq.wasm"
             },
             "Patterns": null
@@ -1058,7 +1087,7 @@
           "System.Private.Xml.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.Xml.wasm"
             },
             "Patterns": null
@@ -1066,7 +1095,7 @@
           "System.Reflection.DispatchProxy.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.DispatchProxy.wasm"
             },
             "Patterns": null
@@ -1074,7 +1103,7 @@
           "System.Reflection.Emit.ILGeneration.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Emit.ILGeneration.wasm"
             },
             "Patterns": null
@@ -1082,7 +1111,7 @@
           "System.Reflection.Emit.Lightweight.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Emit.Lightweight.wasm"
             },
             "Patterns": null
@@ -1090,7 +1119,7 @@
           "System.Reflection.Emit.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Emit.wasm"
             },
             "Patterns": null
@@ -1098,7 +1127,7 @@
           "System.Reflection.Extensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Extensions.wasm"
             },
             "Patterns": null
@@ -1106,7 +1135,7 @@
           "System.Reflection.Metadata.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Metadata.wasm"
             },
             "Patterns": null
@@ -1114,7 +1143,7 @@
           "System.Reflection.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Primitives.wasm"
             },
             "Patterns": null
@@ -1122,7 +1151,7 @@
           "System.Reflection.TypeExtensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.TypeExtensions.wasm"
             },
             "Patterns": null
@@ -1130,7 +1159,7 @@
           "System.Reflection.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.wasm"
             },
             "Patterns": null
@@ -1138,7 +1167,7 @@
           "System.Resources.Reader.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Resources.Reader.wasm"
             },
             "Patterns": null
@@ -1146,7 +1175,7 @@
           "System.Resources.ResourceManager.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Resources.ResourceManager.wasm"
             },
             "Patterns": null
@@ -1154,7 +1183,7 @@
           "System.Resources.Writer.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Resources.Writer.wasm"
             },
             "Patterns": null
@@ -1162,7 +1191,7 @@
           "System.Runtime.CompilerServices.Unsafe.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.CompilerServices.Unsafe.wasm"
             },
             "Patterns": null
@@ -1170,7 +1199,7 @@
           "System.Runtime.CompilerServices.VisualC.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.CompilerServices.VisualC.wasm"
             },
             "Patterns": null
@@ -1178,7 +1207,7 @@
           "System.Runtime.Extensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Extensions.wasm"
             },
             "Patterns": null
@@ -1186,7 +1215,7 @@
           "System.Runtime.Handles.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Handles.wasm"
             },
             "Patterns": null
@@ -1194,7 +1223,7 @@
           "System.Runtime.InteropServices.JavaScript.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.InteropServices.JavaScript.wasm"
             },
             "Patterns": null
@@ -1202,7 +1231,7 @@
           "System.Runtime.InteropServices.RuntimeInformation.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.InteropServices.RuntimeInformation.wasm"
             },
             "Patterns": null
@@ -1210,7 +1239,7 @@
           "System.Runtime.InteropServices.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.InteropServices.wasm"
             },
             "Patterns": null
@@ -1218,7 +1247,7 @@
           "System.Runtime.Intrinsics.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Intrinsics.wasm"
             },
             "Patterns": null
@@ -1226,7 +1255,7 @@
           "System.Runtime.Loader.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Loader.wasm"
             },
             "Patterns": null
@@ -1234,7 +1263,7 @@
           "System.Runtime.Numerics.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Numerics.wasm"
             },
             "Patterns": null
@@ -1242,7 +1271,7 @@
           "System.Runtime.Serialization.Formatters.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Formatters.wasm"
             },
             "Patterns": null
@@ -1250,7 +1279,7 @@
           "System.Runtime.Serialization.Json.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Json.wasm"
             },
             "Patterns": null
@@ -1258,7 +1287,7 @@
           "System.Runtime.Serialization.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Primitives.wasm"
             },
             "Patterns": null
@@ -1266,7 +1295,7 @@
           "System.Runtime.Serialization.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.wasm"
             },
             "Patterns": null
@@ -1274,7 +1303,7 @@
           "System.Runtime.Serialization.Xml.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Xml.wasm"
             },
             "Patterns": null
@@ -1282,7 +1311,7 @@
           "System.Runtime.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.wasm"
             },
             "Patterns": null
@@ -1290,7 +1319,7 @@
           "System.Security.AccessControl.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.AccessControl.wasm"
             },
             "Patterns": null
@@ -1298,7 +1327,7 @@
           "System.Security.Claims.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Claims.wasm"
             },
             "Patterns": null
@@ -1306,7 +1335,7 @@
           "System.Security.Cryptography.Algorithms.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Algorithms.wasm"
             },
             "Patterns": null
@@ -1314,7 +1343,7 @@
           "System.Security.Cryptography.Cng.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Cng.wasm"
             },
             "Patterns": null
@@ -1322,7 +1351,7 @@
           "System.Security.Cryptography.Csp.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Csp.wasm"
             },
             "Patterns": null
@@ -1330,7 +1359,7 @@
           "System.Security.Cryptography.Encoding.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Encoding.wasm"
             },
             "Patterns": null
@@ -1338,7 +1367,7 @@
           "System.Security.Cryptography.OpenSsl.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.OpenSsl.wasm"
             },
             "Patterns": null
@@ -1346,7 +1375,7 @@
           "System.Security.Cryptography.Primitives.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Primitives.wasm"
             },
             "Patterns": null
@@ -1354,7 +1383,7 @@
           "System.Security.Cryptography.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.wasm"
             },
             "Patterns": null
@@ -1362,7 +1391,7 @@
           "System.Security.Cryptography.X509Certificates.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.X509Certificates.wasm"
             },
             "Patterns": null
@@ -1370,7 +1399,7 @@
           "System.Security.Principal.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Principal.wasm"
             },
             "Patterns": null
@@ -1378,7 +1407,7 @@
           "System.Security.Principal.Windows.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Principal.Windows.wasm"
             },
             "Patterns": null
@@ -1386,7 +1415,7 @@
           "System.Security.SecureString.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.SecureString.wasm"
             },
             "Patterns": null
@@ -1394,7 +1423,7 @@
           "System.Security.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.wasm"
             },
             "Patterns": null
@@ -1402,7 +1431,7 @@
           "System.ServiceModel.Web.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ServiceModel.Web.wasm"
             },
             "Patterns": null
@@ -1410,7 +1439,7 @@
           "System.ServiceProcess.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ServiceProcess.wasm"
             },
             "Patterns": null
@@ -1418,7 +1447,7 @@
           "System.Text.Encoding.CodePages.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encoding.CodePages.wasm"
             },
             "Patterns": null
@@ -1426,7 +1455,7 @@
           "System.Text.Encoding.Extensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encoding.Extensions.wasm"
             },
             "Patterns": null
@@ -1434,7 +1463,7 @@
           "System.Text.Encoding.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encoding.wasm"
             },
             "Patterns": null
@@ -1442,7 +1471,7 @@
           "System.Text.Encodings.Web.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encodings.Web.wasm"
             },
             "Patterns": null
@@ -1450,7 +1479,7 @@
           "System.Text.Json.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Json.wasm"
             },
             "Patterns": null
@@ -1458,7 +1487,7 @@
           "System.Text.RegularExpressions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.RegularExpressions.wasm"
             },
             "Patterns": null
@@ -1466,7 +1495,7 @@
           "System.Threading.Channels.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Channels.wasm"
             },
             "Patterns": null
@@ -1474,7 +1503,7 @@
           "System.Threading.Overlapped.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Overlapped.wasm"
             },
             "Patterns": null
@@ -1482,7 +1511,7 @@
           "System.Threading.Tasks.Dataflow.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.Dataflow.wasm"
             },
             "Patterns": null
@@ -1490,7 +1519,7 @@
           "System.Threading.Tasks.Extensions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.Extensions.wasm"
             },
             "Patterns": null
@@ -1498,7 +1527,7 @@
           "System.Threading.Tasks.Parallel.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.Parallel.wasm"
             },
             "Patterns": null
@@ -1506,7 +1535,7 @@
           "System.Threading.Tasks.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.wasm"
             },
             "Patterns": null
@@ -1514,7 +1543,7 @@
           "System.Threading.Thread.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Thread.wasm"
             },
             "Patterns": null
@@ -1522,7 +1551,7 @@
           "System.Threading.ThreadPool.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.ThreadPool.wasm"
             },
             "Patterns": null
@@ -1530,7 +1559,7 @@
           "System.Threading.Timer.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Timer.wasm"
             },
             "Patterns": null
@@ -1538,7 +1567,7 @@
           "System.Threading.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.wasm"
             },
             "Patterns": null
@@ -1546,7 +1575,7 @@
           "System.Transactions.Local.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Transactions.Local.wasm"
             },
             "Patterns": null
@@ -1554,7 +1583,7 @@
           "System.Transactions.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Transactions.wasm"
             },
             "Patterns": null
@@ -1562,7 +1591,7 @@
           "System.ValueTuple.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ValueTuple.wasm"
             },
             "Patterns": null
@@ -1570,7 +1599,7 @@
           "System.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.wasm"
             },
             "Patterns": null
@@ -1578,7 +1607,7 @@
           "System.Web.HttpUtility.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Web.HttpUtility.wasm"
             },
             "Patterns": null
@@ -1586,7 +1615,7 @@
           "System.Web.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Web.wasm"
             },
             "Patterns": null
@@ -1594,7 +1623,7 @@
           "System.Windows.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Windows.wasm"
             },
             "Patterns": null
@@ -1602,7 +1631,7 @@
           "System.Xml.Linq.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.Linq.wasm"
             },
             "Patterns": null
@@ -1610,7 +1639,7 @@
           "System.Xml.ReaderWriter.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.ReaderWriter.wasm"
             },
             "Patterns": null
@@ -1618,7 +1647,7 @@
           "System.Xml.Serialization.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.Serialization.wasm"
             },
             "Patterns": null
@@ -1626,7 +1655,7 @@
           "System.Xml.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.wasm"
             },
             "Patterns": null
@@ -1634,7 +1663,7 @@
           "System.Xml.XDocument.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XDocument.wasm"
             },
             "Patterns": null
@@ -1642,7 +1671,7 @@
           "System.Xml.XmlDocument.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XmlDocument.wasm"
             },
             "Patterns": null
@@ -1650,7 +1679,7 @@
           "System.Xml.XmlSerializer.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XmlSerializer.wasm"
             },
             "Patterns": null
@@ -1658,7 +1687,7 @@
           "System.Xml.XPath.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XPath.wasm"
             },
             "Patterns": null
@@ -1666,7 +1695,7 @@
           "System.Xml.XPath.XDocument.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XPath.XDocument.wasm"
             },
             "Patterns": null
@@ -1674,7 +1703,7 @@
           "WindowsBase.wasm": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/WindowsBase.wasm"
             },
             "Patterns": null
@@ -1682,7 +1711,7 @@
           "Microsoft.Extensions.Configuration.Binder.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.Binder.wasm.gz"
             },
             "Patterns": null
@@ -1690,7 +1719,7 @@
           "System.Net.HttpListener.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.HttpListener.wasm.gz"
             },
             "Patterns": null
@@ -1698,7 +1727,7 @@
           "System.IO.UnmanagedMemoryStream.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.UnmanagedMemoryStream.wasm.gz"
             },
             "Patterns": null
@@ -1706,7 +1735,7 @@
           "dotnet.runtime.8.0.1.0c9h2tcohx.js.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.runtime.8.0.1.0c9h2tcohx.js.gz"
             },
             "Patterns": null
@@ -1714,7 +1743,7 @@
           "System.Threading.Channels.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Channels.wasm.gz"
             },
             "Patterns": null
@@ -1722,7 +1751,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.wasm.gz"
             },
             "Patterns": null
@@ -1730,7 +1759,7 @@
           "System.Security.Cryptography.X509Certificates.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.X509Certificates.wasm.gz"
             },
             "Patterns": null
@@ -1738,7 +1767,7 @@
           "System.Runtime.InteropServices.RuntimeInformation.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.InteropServices.RuntimeInformation.wasm.gz"
             },
             "Patterns": null
@@ -1746,7 +1775,7 @@
           "Microsoft.AspNetCore.Components.Forms.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.Forms.wasm.gz"
             },
             "Patterns": null
@@ -1754,7 +1783,7 @@
           "System.Net.WebProxy.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebProxy.wasm.gz"
             },
             "Patterns": null
@@ -1762,7 +1791,7 @@
           "System.Security.Claims.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Claims.wasm.gz"
             },
             "Patterns": null
@@ -1770,7 +1799,7 @@
           "System.IO.FileSystem.AccessControl.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.AccessControl.wasm.gz"
             },
             "Patterns": null
@@ -1778,7 +1807,7 @@
           "System.Buffers.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Buffers.wasm.gz"
             },
             "Patterns": null
@@ -1786,7 +1815,7 @@
           "Microsoft.Win32.Registry.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Win32.Registry.wasm.gz"
             },
             "Patterns": null
@@ -1794,7 +1823,7 @@
           "System.Linq.Queryable.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.Queryable.wasm.gz"
             },
             "Patterns": null
@@ -1802,7 +1831,7 @@
           "System.Collections.Specialized.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.Specialized.wasm.gz"
             },
             "Patterns": null
@@ -1810,7 +1839,7 @@
           "System.Runtime.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.wasm.gz"
             },
             "Patterns": null
@@ -1818,7 +1847,7 @@
           "System.Globalization.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Globalization.wasm.gz"
             },
             "Patterns": null
@@ -1826,7 +1855,7 @@
           "dotnet.native.8.0.1.25aww0kmau.js.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.native.8.0.1.25aww0kmau.js.gz"
             },
             "Patterns": null
@@ -1834,7 +1863,7 @@
           "System.Private.Uri.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.Uri.wasm.gz"
             },
             "Patterns": null
@@ -1842,7 +1871,7 @@
           "System.Security.Cryptography.Encoding.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Encoding.wasm.gz"
             },
             "Patterns": null
@@ -1850,7 +1879,7 @@
           "System.IO.FileSystem.DriveInfo.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.DriveInfo.wasm.gz"
             },
             "Patterns": null
@@ -1858,7 +1887,7 @@
           "System.Reflection.Metadata.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Metadata.wasm.gz"
             },
             "Patterns": null
@@ -1866,7 +1895,7 @@
           "System.Net.Mail.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Mail.wasm.gz"
             },
             "Patterns": null
@@ -1874,7 +1903,7 @@
           "dotnet.native.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.native.wasm.gz"
             },
             "Patterns": null
@@ -1882,7 +1911,7 @@
           "System.IO.Compression.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.wasm.gz"
             },
             "Patterns": null
@@ -1890,7 +1919,7 @@
           "System.Runtime.Serialization.Xml.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Xml.wasm.gz"
             },
             "Patterns": null
@@ -1898,7 +1927,7 @@
           "Microsoft.Extensions.FileSystemGlobbing.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.FileSystemGlobbing.wasm.gz"
             },
             "Patterns": null
@@ -1906,7 +1935,7 @@
           "System.Runtime.InteropServices.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.InteropServices.wasm.gz"
             },
             "Patterns": null
@@ -1914,7 +1943,7 @@
           "System.ValueTuple.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ValueTuple.wasm.gz"
             },
             "Patterns": null
@@ -1922,7 +1951,7 @@
           "SportsLeagueTeamRankings.Client.pdb.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/SportsLeagueTeamRankings.Client.pdb.gz"
             },
             "Patterns": null
@@ -1930,7 +1959,7 @@
           "System.Security.Principal.Windows.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Principal.Windows.wasm.gz"
             },
             "Patterns": null
@@ -1938,7 +1967,7 @@
           "System.Runtime.Loader.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Loader.wasm.gz"
             },
             "Patterns": null
@@ -1946,7 +1975,7 @@
           "System.Net.Http.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Http.wasm.gz"
             },
             "Patterns": null
@@ -1954,7 +1983,7 @@
           "System.Reflection.DispatchProxy.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.DispatchProxy.wasm.gz"
             },
             "Patterns": null
@@ -1962,7 +1991,7 @@
           "System.Net.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.wasm.gz"
             },
             "Patterns": null
@@ -1970,7 +1999,7 @@
           "System.Diagnostics.Debug.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Debug.wasm.gz"
             },
             "Patterns": null
@@ -1978,7 +2007,7 @@
           "System.Xml.Serialization.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.Serialization.wasm.gz"
             },
             "Patterns": null
@@ -1986,7 +2015,7 @@
           "System.Collections.Concurrent.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.Concurrent.wasm.gz"
             },
             "Patterns": null
@@ -1994,7 +2023,7 @@
           "Microsoft.AspNetCore.Components.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.wasm.gz"
             },
             "Patterns": null
@@ -2002,7 +2031,7 @@
           "Microsoft.Win32.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Win32.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -2010,7 +2039,7 @@
           "System.ComponentModel.TypeConverter.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.TypeConverter.wasm.gz"
             },
             "Patterns": null
@@ -2018,7 +2047,7 @@
           "System.Linq.Parallel.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.Parallel.wasm.gz"
             },
             "Patterns": null
@@ -2026,7 +2055,7 @@
           "System.Resources.ResourceManager.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Resources.ResourceManager.wasm.gz"
             },
             "Patterns": null
@@ -2034,7 +2063,7 @@
           "System.Linq.Expressions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.Expressions.wasm.gz"
             },
             "Patterns": null
@@ -2042,7 +2071,7 @@
           "System.Threading.Overlapped.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Overlapped.wasm.gz"
             },
             "Patterns": null
@@ -2050,7 +2079,7 @@
           "System.Security.Cryptography.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.wasm.gz"
             },
             "Patterns": null
@@ -2058,7 +2087,7 @@
           "System.Runtime.Numerics.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Numerics.wasm.gz"
             },
             "Patterns": null
@@ -2066,7 +2095,7 @@
           "System.Diagnostics.Contracts.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Contracts.wasm.gz"
             },
             "Patterns": null
@@ -2074,7 +2103,7 @@
           "System.Collections.NonGeneric.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.NonGeneric.wasm.gz"
             },
             "Patterns": null
@@ -2082,7 +2111,7 @@
           "System.Net.Http.Json.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Http.Json.wasm.gz"
             },
             "Patterns": null
@@ -2090,7 +2119,7 @@
           "System.Reflection.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -2098,7 +2127,7 @@
           "System.Core.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Core.wasm.gz"
             },
             "Patterns": null
@@ -2106,7 +2135,7 @@
           "Microsoft.AspNetCore.Authorization.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Authorization.wasm.gz"
             },
             "Patterns": null
@@ -2114,7 +2143,7 @@
           "System.Web.HttpUtility.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Web.HttpUtility.wasm.gz"
             },
             "Patterns": null
@@ -2122,7 +2151,7 @@
           "System.Threading.Tasks.Dataflow.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.Dataflow.wasm.gz"
             },
             "Patterns": null
@@ -2130,7 +2159,7 @@
           "Microsoft.Extensions.FileProviders.Physical.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.FileProviders.Physical.wasm.gz"
             },
             "Patterns": null
@@ -2138,7 +2167,7 @@
           "System.IO.MemoryMappedFiles.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.MemoryMappedFiles.wasm.gz"
             },
             "Patterns": null
@@ -2146,7 +2175,7 @@
           "System.Runtime.Extensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Extensions.wasm.gz"
             },
             "Patterns": null
@@ -2154,7 +2183,7 @@
           "System.AppContext.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.AppContext.wasm.gz"
             },
             "Patterns": null
@@ -2162,7 +2191,7 @@
           "System.Net.Quic.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Quic.wasm.gz"
             },
             "Patterns": null
@@ -2170,7 +2199,7 @@
           "System.Diagnostics.Tracing.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Tracing.wasm.gz"
             },
             "Patterns": null
@@ -2178,7 +2207,7 @@
           "System.Security.Cryptography.Csp.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Csp.wasm.gz"
             },
             "Patterns": null
@@ -2186,7 +2215,7 @@
           "System.Diagnostics.Process.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Process.wasm.gz"
             },
             "Patterns": null
@@ -2194,7 +2223,7 @@
           "System.Private.DataContractSerialization.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.DataContractSerialization.wasm.gz"
             },
             "Patterns": null
@@ -2202,7 +2231,7 @@
           "Microsoft.VisualBasic.Core.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.VisualBasic.Core.wasm.gz"
             },
             "Patterns": null
@@ -2210,7 +2239,7 @@
           "System.Net.WebSockets.Client.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebSockets.Client.wasm.gz"
             },
             "Patterns": null
@@ -2218,7 +2247,7 @@
           "System.Xml.XPath.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XPath.wasm.gz"
             },
             "Patterns": null
@@ -2226,7 +2255,7 @@
           "System.Threading.Thread.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Thread.wasm.gz"
             },
             "Patterns": null
@@ -2234,7 +2263,7 @@
           "System.Private.Xml.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.Xml.wasm.gz"
             },
             "Patterns": null
@@ -2242,7 +2271,7 @@
           "System.Windows.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Windows.wasm.gz"
             },
             "Patterns": null
@@ -2250,7 +2279,7 @@
           "System.Reflection.Extensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Extensions.wasm.gz"
             },
             "Patterns": null
@@ -2258,7 +2287,7 @@
           "Microsoft.Extensions.Logging.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Logging.wasm.gz"
             },
             "Patterns": null
@@ -2266,7 +2295,7 @@
           "System.Runtime.Serialization.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -2274,7 +2303,7 @@
           "System.Diagnostics.Tools.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.Tools.wasm.gz"
             },
             "Patterns": null
@@ -2282,7 +2311,7 @@
           "System.ComponentModel.EventBasedAsync.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.EventBasedAsync.wasm.gz"
             },
             "Patterns": null
@@ -2290,7 +2319,7 @@
           "SportsLeagueTeamRankings.Client.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/SportsLeagueTeamRankings.Client.wasm.gz"
             },
             "Patterns": null
@@ -2298,7 +2327,7 @@
           "Microsoft.Extensions.Configuration.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.wasm.gz"
             },
             "Patterns": null
@@ -2306,7 +2335,7 @@
           "System.Threading.Tasks.Parallel.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.Parallel.wasm.gz"
             },
             "Patterns": null
@@ -2314,7 +2343,7 @@
           "System.IO.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.wasm.gz"
             },
             "Patterns": null
@@ -2322,7 +2351,7 @@
           "System.IO.Compression.Brotli.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.Brotli.wasm.gz"
             },
             "Patterns": null
@@ -2330,7 +2359,7 @@
           "System.Security.AccessControl.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.AccessControl.wasm.gz"
             },
             "Patterns": null
@@ -2338,7 +2367,7 @@
           "System.Memory.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Memory.wasm.gz"
             },
             "Patterns": null
@@ -2346,7 +2375,7 @@
           "System.Drawing.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Drawing.wasm.gz"
             },
             "Patterns": null
@@ -2354,7 +2383,7 @@
           "dotnet.js.map.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.js.map.gz"
             },
             "Patterns": null
@@ -2362,7 +2391,7 @@
           "System.IO.Pipelines.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Pipelines.wasm.gz"
             },
             "Patterns": null
@@ -2370,7 +2399,7 @@
           "System.Net.Requests.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Requests.wasm.gz"
             },
             "Patterns": null
@@ -2378,7 +2407,7 @@
           "System.Security.Principal.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Principal.wasm.gz"
             },
             "Patterns": null
@@ -2386,7 +2415,7 @@
           "System.Net.Sockets.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Sockets.wasm.gz"
             },
             "Patterns": null
@@ -2394,7 +2423,7 @@
           "System.Reflection.Emit.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Emit.wasm.gz"
             },
             "Patterns": null
@@ -2402,7 +2431,7 @@
           "Microsoft.Extensions.FileProviders.Abstractions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.FileProviders.Abstractions.wasm.gz"
             },
             "Patterns": null
@@ -2410,7 +2439,7 @@
           "System.ComponentModel.DataAnnotations.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.DataAnnotations.wasm.gz"
             },
             "Patterns": null
@@ -2418,7 +2447,7 @@
           "System.ComponentModel.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.wasm.gz"
             },
             "Patterns": null
@@ -2426,7 +2455,7 @@
           "System.Net.ServicePoint.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.ServicePoint.wasm.gz"
             },
             "Patterns": null
@@ -2434,7 +2463,7 @@
           "System.Diagnostics.StackTrace.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.StackTrace.wasm.gz"
             },
             "Patterns": null
@@ -2442,7 +2471,7 @@
           "System.Formats.Asn1.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Formats.Asn1.wasm.gz"
             },
             "Patterns": null
@@ -2450,7 +2479,7 @@
           "Microsoft.Extensions.Configuration.Json.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.Json.wasm.gz"
             },
             "Patterns": null
@@ -2458,7 +2487,7 @@
           "System.Net.NetworkInformation.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.NetworkInformation.wasm.gz"
             },
             "Patterns": null
@@ -2466,7 +2495,7 @@
           "System.Configuration.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Configuration.wasm.gz"
             },
             "Patterns": null
@@ -2474,7 +2503,7 @@
           "blazor.boot.json.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/blazor.boot.json.gz"
             },
             "Patterns": null
@@ -2482,7 +2511,7 @@
           "System.Xml.XDocument.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XDocument.wasm.gz"
             },
             "Patterns": null
@@ -2490,7 +2519,7 @@
           "System.ServiceModel.Web.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ServiceModel.Web.wasm.gz"
             },
             "Patterns": null
@@ -2498,7 +2527,7 @@
           "System.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.wasm.gz"
             },
             "Patterns": null
@@ -2506,7 +2535,7 @@
           "System.Text.RegularExpressions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.RegularExpressions.wasm.gz"
             },
             "Patterns": null
@@ -2514,7 +2543,7 @@
           "System.Drawing.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Drawing.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -2522,7 +2551,7 @@
           "System.Threading.ThreadPool.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.ThreadPool.wasm.gz"
             },
             "Patterns": null
@@ -2530,7 +2559,7 @@
           "System.Net.Ping.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Ping.wasm.gz"
             },
             "Patterns": null
@@ -2538,7 +2567,7 @@
           "Microsoft.Extensions.DependencyInjection.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.DependencyInjection.wasm.gz"
             },
             "Patterns": null
@@ -2546,7 +2575,7 @@
           "System.Text.Encoding.Extensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encoding.Extensions.wasm.gz"
             },
             "Patterns": null
@@ -2554,7 +2583,7 @@
           "dotnet.js.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.js.gz"
             },
             "Patterns": null
@@ -2562,7 +2591,7 @@
           "System.IO.Pipes.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Pipes.wasm.gz"
             },
             "Patterns": null
@@ -2570,7 +2599,7 @@
           "System.Diagnostics.FileVersionInfo.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.FileVersionInfo.wasm.gz"
             },
             "Patterns": null
@@ -2578,7 +2607,7 @@
           "netstandard.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/netstandard.wasm.gz"
             },
             "Patterns": null
@@ -2586,7 +2615,7 @@
           "System.Threading.Timer.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Timer.wasm.gz"
             },
             "Patterns": null
@@ -2594,7 +2623,7 @@
           "System.Runtime.Serialization.Formatters.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Formatters.wasm.gz"
             },
             "Patterns": null
@@ -2602,7 +2631,7 @@
           "Microsoft.Extensions.Options.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Options.wasm.gz"
             },
             "Patterns": null
@@ -2610,7 +2639,7 @@
           "icudt_no_CJK.dat.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/icudt_no_CJK.dat.gz"
             },
             "Patterns": null
@@ -2618,7 +2647,7 @@
           "System.Xml.XmlSerializer.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XmlSerializer.wasm.gz"
             },
             "Patterns": null
@@ -2626,7 +2655,7 @@
           "System.Threading.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.wasm.gz"
             },
             "Patterns": null
@@ -2634,7 +2663,7 @@
           "System.ServiceProcess.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ServiceProcess.wasm.gz"
             },
             "Patterns": null
@@ -2642,7 +2671,7 @@
           "System.Net.WebHeaderCollection.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebHeaderCollection.wasm.gz"
             },
             "Patterns": null
@@ -2650,7 +2679,7 @@
           "blazor.webassembly.js.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/blazor.webassembly.js.gz"
             },
             "Patterns": null
@@ -2658,7 +2687,7 @@
           "System.Diagnostics.TextWriterTraceListener.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.TextWriterTraceListener.wasm.gz"
             },
             "Patterns": null
@@ -2666,7 +2695,7 @@
           "System.Data.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Data.wasm.gz"
             },
             "Patterns": null
@@ -2674,7 +2703,7 @@
           "System.IO.Compression.ZipFile.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.ZipFile.wasm.gz"
             },
             "Patterns": null
@@ -2682,7 +2711,7 @@
           "System.Dynamic.Runtime.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Dynamic.Runtime.wasm.gz"
             },
             "Patterns": null
@@ -2690,7 +2719,7 @@
           "System.IO.IsolatedStorage.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.IsolatedStorage.wasm.gz"
             },
             "Patterns": null
@@ -2698,7 +2727,7 @@
           "System.Security.Cryptography.OpenSsl.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.OpenSsl.wasm.gz"
             },
             "Patterns": null
@@ -2706,7 +2735,7 @@
           "Microsoft.Extensions.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -2714,7 +2743,7 @@
           "mscorlib.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/mscorlib.wasm.gz"
             },
             "Patterns": null
@@ -2722,7 +2751,7 @@
           "System.ComponentModel.Annotations.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.Annotations.wasm.gz"
             },
             "Patterns": null
@@ -2730,7 +2759,7 @@
           "System.Xml.XmlDocument.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XmlDocument.wasm.gz"
             },
             "Patterns": null
@@ -2738,7 +2767,7 @@
           "System.Runtime.Handles.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Handles.wasm.gz"
             },
             "Patterns": null
@@ -2746,7 +2775,7 @@
           "System.Private.CoreLib.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.CoreLib.wasm.gz"
             },
             "Patterns": null
@@ -2754,7 +2783,7 @@
           "Microsoft.AspNetCore.Metadata.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Metadata.wasm.gz"
             },
             "Patterns": null
@@ -2762,7 +2791,7 @@
           "System.Linq.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Linq.wasm.gz"
             },
             "Patterns": null
@@ -2770,7 +2799,7 @@
           "System.Data.DataSetExtensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Data.DataSetExtensions.wasm.gz"
             },
             "Patterns": null
@@ -2778,7 +2807,7 @@
           "System.Net.NameResolution.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.NameResolution.wasm.gz"
             },
             "Patterns": null
@@ -2786,7 +2815,7 @@
           "System.ObjectModel.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ObjectModel.wasm.gz"
             },
             "Patterns": null
@@ -2794,7 +2823,7 @@
           "System.Xml.XPath.XDocument.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.XPath.XDocument.wasm.gz"
             },
             "Patterns": null
@@ -2802,7 +2831,7 @@
           "System.Formats.Tar.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Formats.Tar.wasm.gz"
             },
             "Patterns": null
@@ -2810,7 +2839,7 @@
           "System.Runtime.Serialization.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.wasm.gz"
             },
             "Patterns": null
@@ -2818,7 +2847,7 @@
           "System.Security.Cryptography.Algorithms.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Algorithms.wasm.gz"
             },
             "Patterns": null
@@ -2826,7 +2855,7 @@
           "System.Globalization.Extensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Globalization.Extensions.wasm.gz"
             },
             "Patterns": null
@@ -2834,7 +2863,7 @@
           "System.Runtime.Intrinsics.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Intrinsics.wasm.gz"
             },
             "Patterns": null
@@ -2842,7 +2871,7 @@
           "System.Threading.Tasks.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.wasm.gz"
             },
             "Patterns": null
@@ -2850,7 +2879,7 @@
           "System.Security.SecureString.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.SecureString.wasm.gz"
             },
             "Patterns": null
@@ -2858,7 +2887,7 @@
           "System.Resources.Writer.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Resources.Writer.wasm.gz"
             },
             "Patterns": null
@@ -2866,7 +2895,7 @@
           "System.Collections.Immutable.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.Immutable.wasm.gz"
             },
             "Patterns": null
@@ -2874,7 +2903,7 @@
           "System.Text.Encoding.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encoding.wasm.gz"
             },
             "Patterns": null
@@ -2882,7 +2911,7 @@
           "Microsoft.Extensions.Logging.Abstractions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Logging.Abstractions.wasm.gz"
             },
             "Patterns": null
@@ -2890,7 +2919,7 @@
           "System.Private.Xml.Linq.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Private.Xml.Linq.wasm.gz"
             },
             "Patterns": null
@@ -2898,7 +2927,7 @@
           "System.Security.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.wasm.gz"
             },
             "Patterns": null
@@ -2906,7 +2935,7 @@
           "System.Console.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Console.wasm.gz"
             },
             "Patterns": null
@@ -2914,7 +2943,7 @@
           "System.Reflection.Emit.ILGeneration.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Emit.ILGeneration.wasm.gz"
             },
             "Patterns": null
@@ -2922,7 +2951,7 @@
           "Microsoft.VisualBasic.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.VisualBasic.wasm.gz"
             },
             "Patterns": null
@@ -2930,7 +2959,7 @@
           "System.Text.Json.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Json.wasm.gz"
             },
             "Patterns": null
@@ -2938,7 +2967,7 @@
           "System.Threading.Tasks.Extensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Threading.Tasks.Extensions.wasm.gz"
             },
             "Patterns": null
@@ -2946,7 +2975,7 @@
           "System.Xml.ReaderWriter.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.ReaderWriter.wasm.gz"
             },
             "Patterns": null
@@ -2954,7 +2983,7 @@
           "dotnet.runtime.js.map.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/dotnet.runtime.js.map.gz"
             },
             "Patterns": null
@@ -2962,7 +2991,7 @@
           "WindowsBase.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/WindowsBase.wasm.gz"
             },
             "Patterns": null
@@ -2970,7 +2999,7 @@
           "System.Text.Encoding.CodePages.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encoding.CodePages.wasm.gz"
             },
             "Patterns": null
@@ -2978,7 +3007,7 @@
           "System.IO.FileSystem.Watcher.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.Watcher.wasm.gz"
             },
             "Patterns": null
@@ -2986,7 +3015,7 @@
           "System.Globalization.Calendars.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Globalization.Calendars.wasm.gz"
             },
             "Patterns": null
@@ -2994,7 +3023,7 @@
           "System.IO.FileSystem.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -3002,7 +3031,7 @@
           "System.Diagnostics.TraceSource.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.TraceSource.wasm.gz"
             },
             "Patterns": null
@@ -3010,7 +3039,7 @@
           "System.Transactions.Local.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Transactions.Local.wasm.gz"
             },
             "Patterns": null
@@ -3018,7 +3047,7 @@
           "System.Data.Common.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Data.Common.wasm.gz"
             },
             "Patterns": null
@@ -3026,7 +3055,7 @@
           "Microsoft.Extensions.Configuration.FileExtensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.FileExtensions.wasm.gz"
             },
             "Patterns": null
@@ -3034,7 +3063,7 @@
           "System.Web.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Web.wasm.gz"
             },
             "Patterns": null
@@ -3042,7 +3071,7 @@
           "System.Security.Cryptography.Cng.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Cng.wasm.gz"
             },
             "Patterns": null
@@ -3050,7 +3079,7 @@
           "System.Numerics.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Numerics.wasm.gz"
             },
             "Patterns": null
@@ -3058,7 +3087,7 @@
           "System.Net.WebClient.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebClient.wasm.gz"
             },
             "Patterns": null
@@ -3066,7 +3095,7 @@
           "System.Xml.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.wasm.gz"
             },
             "Patterns": null
@@ -3074,7 +3103,7 @@
           "System.Reflection.TypeExtensions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.TypeExtensions.wasm.gz"
             },
             "Patterns": null
@@ -3082,7 +3111,7 @@
           "System.Resources.Reader.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Resources.Reader.wasm.gz"
             },
             "Patterns": null
@@ -3090,7 +3119,7 @@
           "System.Diagnostics.DiagnosticSource.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Diagnostics.DiagnosticSource.wasm.gz"
             },
             "Patterns": null
@@ -3098,7 +3127,7 @@
           "System.IO.FileSystem.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.FileSystem.wasm.gz"
             },
             "Patterns": null
@@ -3106,7 +3135,7 @@
           "icudt_CJK.dat.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/icudt_CJK.dat.gz"
             },
             "Patterns": null
@@ -3114,7 +3143,7 @@
           "System.Net.Security.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Security.wasm.gz"
             },
             "Patterns": null
@@ -3122,7 +3151,7 @@
           "System.Xml.Linq.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Xml.Linq.wasm.gz"
             },
             "Patterns": null
@@ -3130,7 +3159,7 @@
           "System.Net.WebSockets.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.WebSockets.wasm.gz"
             },
             "Patterns": null
@@ -3138,7 +3167,7 @@
           "Microsoft.CSharp.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.CSharp.wasm.gz"
             },
             "Patterns": null
@@ -3146,7 +3175,7 @@
           "icudt_EFIGS.dat.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/icudt_EFIGS.dat.gz"
             },
             "Patterns": null
@@ -3154,7 +3183,7 @@
           "System.IO.Compression.FileSystem.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Compression.FileSystem.wasm.gz"
             },
             "Patterns": null
@@ -3162,7 +3191,7 @@
           "Microsoft.AspNetCore.Components.WebAssembly.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.wasm.gz"
             },
             "Patterns": null
@@ -3170,7 +3199,7 @@
           "System.Runtime.InteropServices.JavaScript.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.InteropServices.JavaScript.wasm.gz"
             },
             "Patterns": null
@@ -3178,7 +3207,7 @@
           "Microsoft.AspNetCore.Components.Web.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.AspNetCore.Components.Web.wasm.gz"
             },
             "Patterns": null
@@ -3186,7 +3215,7 @@
           "Microsoft.JSInterop.WebAssembly.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.JSInterop.WebAssembly.wasm.gz"
             },
             "Patterns": null
@@ -3194,7 +3223,7 @@
           "System.ComponentModel.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.ComponentModel.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -3202,7 +3231,7 @@
           "System.Security.Cryptography.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Security.Cryptography.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -3210,7 +3239,7 @@
           "System.Numerics.Vectors.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Numerics.Vectors.wasm.gz"
             },
             "Patterns": null
@@ -3218,7 +3247,7 @@
           "Microsoft.JSInterop.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.JSInterop.wasm.gz"
             },
             "Patterns": null
@@ -3226,7 +3255,7 @@
           "System.Transactions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Transactions.wasm.gz"
             },
             "Patterns": null
@@ -3234,7 +3263,7 @@
           "System.Runtime.CompilerServices.VisualC.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.CompilerServices.VisualC.wasm.gz"
             },
             "Patterns": null
@@ -3242,7 +3271,7 @@
           "System.Text.Encodings.Web.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Text.Encodings.Web.wasm.gz"
             },
             "Patterns": null
@@ -3250,7 +3279,7 @@
           "System.Collections.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Collections.wasm.gz"
             },
             "Patterns": null
@@ -3258,7 +3287,7 @@
           "System.Runtime.Serialization.Json.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.Serialization.Json.wasm.gz"
             },
             "Patterns": null
@@ -3266,7 +3295,7 @@
           "System.Runtime.CompilerServices.Unsafe.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Runtime.CompilerServices.Unsafe.wasm.gz"
             },
             "Patterns": null
@@ -3274,7 +3303,7 @@
           "System.Reflection.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.wasm.gz"
             },
             "Patterns": null
@@ -3282,7 +3311,7 @@
           "System.IO.Pipes.AccessControl.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.IO.Pipes.AccessControl.wasm.gz"
             },
             "Patterns": null
@@ -3290,7 +3319,7 @@
           "Microsoft.Extensions.Configuration.Abstractions.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.Abstractions.wasm.gz"
             },
             "Patterns": null
@@ -3298,7 +3327,7 @@
           "System.Net.Primitives.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Net.Primitives.wasm.gz"
             },
             "Patterns": null
@@ -3306,7 +3335,7 @@
           "System.Reflection.Emit.Lightweight.wasm.gz": {
             "Children": null,
             "Asset": {
-              "ContentRootIndex": 1,
+              "ContentRootIndex": 2,
               "SubPath": "_framework/System.Reflection.Emit.Lightweight.wasm.gz"
             },
             "Patterns": null
@@ -3318,7 +3347,7 @@
       "appsettings.Development.json": {
         "Children": null,
         "Asset": {
-          "ContentRootIndex": 2,
+          "ContentRootIndex": 3,
           "SubPath": "appsettings.Development.json"
         },
         "Patterns": null
@@ -3326,7 +3355,7 @@
       "appsettings.json": {
         "Children": null,
         "Asset": {
-          "ContentRootIndex": 2,
+          "ContentRootIndex": 3,
           "SubPath": "appsettings.json"
         },
         "Patterns": null
@@ -3334,7 +3363,7 @@
       "SportsLeagueTeamRankings.styles.css": {
         "Children": null,
         "Asset": {
-          "ContentRootIndex": 3,
+          "ContentRootIndex": 4,
           "SubPath": "SportsLeagueTeamRankings.styles.css"
         },
         "Patterns": null
@@ -3343,7 +3372,7 @@
     "Asset": null,
     "Patterns": [
       {
-        "ContentRootIndex": 2,
+        "ContentRootIndex": 3,
         "Pattern": "**",
         "Depth": 0
       }

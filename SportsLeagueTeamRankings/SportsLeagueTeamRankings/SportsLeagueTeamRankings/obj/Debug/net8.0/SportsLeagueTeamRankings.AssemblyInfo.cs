@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportsLeagueTeamRankings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0ff85a32c4cad138c8b9e4b491f4c6479ac0307")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1efb4bc55d1bdfd13030a8565fb2887ca5de02c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportsLeagueTeamRankings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportsLeagueTeamRankings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

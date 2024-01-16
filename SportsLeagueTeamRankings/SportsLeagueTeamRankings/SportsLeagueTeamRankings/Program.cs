@@ -1,12 +1,19 @@
+using MySqlConnector;
 using SportsLeagueTeamRankings.Client.Pages;
 using SportsLeagueTeamRankings.Components;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using SportsLeagueTeamRankings.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<SportsLeagueTeamRankingsContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SportsLeagueTeamRankingsContext") ?? throw new InvalidOperationException("Connection string 'SportsLeagueTeamRankingsContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+builder.Services.AddMySqlDataSource(builder.Configuration.GetConnectionString("Default")!);
 
 var app = builder.Build();
 
